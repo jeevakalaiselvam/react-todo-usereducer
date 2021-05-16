@@ -1,0 +1,51 @@
+.single-todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.single-todo-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.todo-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.button {
+    font-family: inherit;
+    background-color: #dadff1;
+    border: none;
+    padding: 0.75rem;
+    color: white;
+    font-size: 0.75rem;
+    margin-right: 1rem;
+    border-radius: 0.25rem;
+    background-color: #2e4acc;
+    font-weight: bold;
+}
+
+.fas {
+    font-size: 1rem;
+}
+
+.button i {
+    color: white;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #1f369b;
+}
+
+.button:active {
+    cursor: pointer;
+    transform: scale(0.95);
+    background-color: #253fb4;
+}
